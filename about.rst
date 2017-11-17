@@ -28,6 +28,21 @@ Data Analyzers
 Once the market data from all available sources are read, ``The Brain Engine`` will then
 will start executing the available data-analyzer modules.
 
-A data-analyzer is a basic module that can read, process and finally manipulate the data from markets.
+A ``data analyzer`` is a basic module that can read, process and finally manipulate the data from markets.
 
-As an example ``MergedMarketsForPairs`` data-analyzer merges all currency pairs within the market data and will then find each market with best ask & bid prices.
+As an example ``MergedMarketsForPairs`` data analyzer merges all currency pairs within the market data and will then find each market with best ask & bid prices.
+
+Opportunity Analyzers
+=====================
+
+Once data analyzers are all processed, ``The Brain Engine`` will move on executing ``opportunity analyzers``.
+
+An ``opportunity analyzers`` is a basically another type of module that has access to results from ``data analyzers``.
+
+They can basically take the results and check for any outstanding **opportunities** for the current market state.
+
+As an example, a simple ``opportunity analyzer`` can read from the previous ``MergedMarketsForPairs`` data analyzer's results and
+calculate if any outstanding opportunities stand for available currency pairs, in which our case buying from the lowest ask market and
+selling it back in highest bid market would be one.
+
+As well as presenting the user percentage profit, the ``opportunity analyzer`` can then create a ``on-the-fly`` strategy which will be then later executed and calculate the exact outcome.
