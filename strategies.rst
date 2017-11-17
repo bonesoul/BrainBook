@@ -97,7 +97,7 @@ As an example, the code below executes the same above strategy;
 
 			public void Load()
 			{
-				var variant1 = new ProgrammaticVariant(this, "Koinim -> Paribu");
+				var variant = new ProgrammaticVariant(this, "Koinim -> Paribu");
 				variant1.Execute = new Action(() =>
 				{
 					variant.CashIn("Koinim", new Amount(1000, _try));
