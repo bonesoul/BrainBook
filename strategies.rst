@@ -41,3 +41,10 @@ easly handle the most basic tasks for creating simple strategies.
 			- sell: TRY # Sell BTC for TRY.
 			- cashout: # Cash out TRY.	
 
+The above strategy will basically execute these actions;
+
+- The above strategy will basically cash in ``1000 USD`` to Bitcoin exchange called ``Koinim``.
+- Will buy ``Bitcoin`` with all it's fiat.
+- Transfer ``Bitcoins`` to another exchange called ``Paribu``.
+- Will sell all the ``Bitcoins``.
+- Will cash out from the market.
