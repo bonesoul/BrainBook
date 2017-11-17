@@ -14,6 +14,7 @@ Contents
    :caption: Contents:
 
    about
+   strategies
    
 Indices and tables
 ==================
