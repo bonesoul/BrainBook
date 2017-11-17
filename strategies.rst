@@ -10,8 +10,8 @@ Strategies
 - Programmatic strategies
 - On-the-fly strategies.
 
-Configuration based
-===================
+Configured
+==========
 
 ``Configuration based strategies`` are simple ``YAML markup`` based strategies. Although it has a pretty basic syntax, it can
 easly handle the most basic tasks for creating simple strategies.
@@ -71,7 +71,7 @@ As an example, the code below executes the same above strategy;
 	namespace Brain.Strategies
 	{
 		[Serializable]
-		public class Strategy2 : IProgrammaticStrategy
+		public class Strategy : IProgrammaticStrategy
 		{
 			public string Name { get; }
 
@@ -119,3 +119,9 @@ Yet again it will execute the same actions;
 - Transfer ``Bitcoins`` to another exchange called ``Paribu``.
 - Will sell all the ``Bitcoins``.
 - Will cash out from the market.
+
+On-the-fly
+==========
+
+``On-the-fly strategies`` are strategies that are not created by the user but ``The Brain Engine`` itself based on current market oppurtunities.
+Once the market data is read and processed by ``data analyzers``, a ``oppurtunity analyzer`` that can evaluate possible profit opportunities within the markets and if so, it can dynamically create a suitable ``on-the-fly strategy`` for it.
