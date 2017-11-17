@@ -46,3 +46,12 @@ calculate if any outstanding opportunities stand for available currency pairs, i
 selling it back in highest bid market would be one.
 
 As well as presenting the user percentage profit, the ``opportunity analyzer`` can then create a ``on-the-fly`` strategy which will be then later executed and calculate the exact outcome.
+
+Strategies
+==========
+
+``Strategies`` are basically executed by ``The Brain Engine`` to calculated expected outcome & profit for a given set of actions. ``The Brain Engine`` can run 3 kind of strategies;
+
+- Configuration based strategies
+- Programmatic strategies
+- On-the-fly strategies.
