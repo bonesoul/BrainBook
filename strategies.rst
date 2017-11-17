@@ -125,3 +125,9 @@ On-the-fly
 
 ``On-the-fly strategies`` are strategies that are not created by the user but ``The Brain Engine`` itself based on current market oppurtunities.
 Once the market data is read and processed by ``data analyzers``, a ``oppurtunity analyzer`` that can evaluate possible profit opportunities within the markets and if so, it can dynamically create a suitable ``on-the-fly strategy`` for it.
+
+The basic workflow for ``On-the-fly strategies`` is;
+
+* ``The Brain Engine`` will read data from markets.
+* Available ``data analyzers`` will be executed where they will process the market data.
+* ``Opportunity analyzers`` will be evaluating the outcome from ``data analyzers``. Once an opportunity is found, it'll present the user percentage profit and create a ``on-the-fly strategy`` utilizing it to exactly calculate the expected outcome.
