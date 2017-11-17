@@ -1,20 +1,26 @@
-.. Brain Book documentation master file, created by
-   sphinx-quickstart on Fri Nov 17 16:05:51 2017.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
-Brain
+CoiniumServ
 ===========
 
-About brain 
-   
-Welcome to Brain's documentation!
-======================================
+CoiniumServ is a high performance, extremely efficient, platform-agnostic, easy to setup pool server implementation. It features stratum and vanilla services, reward, payment, share processors, vardiff & ban managers, user-friendly embedded web-server & front-end and a full-stack API.
+
+.. image:: http://i.imgur.com/HvaPVrZ.png
+
+
+Contents
+========
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :maxdepth: 3
 
+   gettingstarted
+   
+Releases
+========
+
+.. toctree::
+   :maxdepth: 1
+
+   releases/0.1.5-alpha
 
 
 Indices and tables
@@ -23,3 +29,4 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
+
