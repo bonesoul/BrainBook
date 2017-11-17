@@ -1,9 +1,9 @@
 Brain
 ===========
 
-About Brain
+Brain is tool for crypto-currency markets aiming to help with users trading activities. It features programmatic, config based and on-the-fly strategies, data and opportunity analyzers.
 
-.. image:: http://i.imgur.com/HvaPVrZ.png
+.. image:: https://image.ibb.co/i1HaJG/The_Brain_2.jpg
 
 
 Contents
@@ -13,7 +13,7 @@ Contents
    :maxdepth: 2
    :caption: Contents:
 
-   gettingstarted
+   why
    
 Indices and tables
 ==================

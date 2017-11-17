@@ -1,11 +1,10 @@
 .. _gettingstarted:
 
 ===============
-Getting Started
+Why?
 ===============
 
-Requirements
-============
+As trading hundreds of cryptocoins in tens of markets could be really hard for users, The Brain aims to help with decision taking by presenting the user best possible summarized information.
 
 CoiniumServ is an platform-agnostic software which can run on any platform that dotNet_ or mono_ framework is available including Windows, Linux and Mac/OS.
 
