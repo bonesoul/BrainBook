@@ -45,7 +45,7 @@ As an example, a simple ``opportunity analyzer`` can read from the previous ``Me
 calculate if any outstanding opportunities stand for available currency pairs, in which our case buying from the lowest ask market and
 selling it back in highest bid market would be one.
 
-As well as presenting the user percentage profit, the ``opportunity analyzer`` can then create a ``on-the-fly`` strategy which will be then later executed and calculate the exact outcome.
+As well as presenting the user percentage profit, the ``opportunity analyzer`` can then create a ``on-the-fly strategy`` which will be then later executed and calculate the exact outcome.
 
 Strategies
 ==========
