@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# CoiniumServ documentation build configuration file, created by
+# BrainBook documentation build configuration file, created by
 # sphinx-quickstart on Fri Sep 26 14:22:38 2014.
 #
 # This file is execfile()d with the current directory set to its
@@ -44,8 +44,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'CoiniumServ'
-copyright = '2014, Huseyin Uslu'
+project = 'BrainBook'
+copyright = '2017, Huseyin Uslu'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -241,8 +241,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'CoiniumServ', 'CoiniumServ Documentation',
-   'Huseyin Uslu', 'CoiniumServ', 'One line description of project.',
+  ('index', 'BrainBook', 'Brain Documentation',
+   'Huseyin Uslu', 'BrainBook', 'The Brain documentation.',
    'Miscellaneous'),
 ]
 
